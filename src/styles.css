@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent-container {
+  font-family: sans-serif;
+  width: 800px;
+  margin: auto;
+}
+
+.row-container {
+  position: relative;
+}
+
+.selected-image {
+  height: 500px;
+  width: 100%;
+  display: block;
+}
+
+.arrow-left-container {
+  position: absolute;
+  left: 10px;
+  top: 250px;
+}
+
+.arrow-right-container {
+  position: absolute;
+  top: 250px;
+  right: 10px;
+}
+
+.image-options-parent-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4px;
+}
+
+.image-options-container {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.image-options {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 4px solid grey;
+}
+
+.selected-image-border {
+  border: 4px solid skyblue;
+}
